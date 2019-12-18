@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<!-- HEAD START ========================================================================= -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="" >
+    <meta name="description" content="">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    
+    <title>Магазин Перекресток</title>
+    
+<!-- CSS STYLE ======================================================================== -->
+   
+    <link rel="stylesheet" href="css/reset.min.css">
+    <link rel="stylesheet" media="all and (min-width: 1201px)" href="">
+    <link rel="stylesheet" media="all and (min-width: 901px) and (max-width: 1200px)" href="">
+    <link rel="stylesheet" media="all and (min-width: 601px) and (max-width: 900px)" href=""> 
+    <link rel="stylesheet" media="all and (max-width: 600px)" href="">
+    
+<!-- CSS STYLE ======================================================= -->
+    
+</head>
+
+<!-- HEAD END ========================================================================= -->
+
+
+
+<body>
+   
+<!-- MAIN START ======================================================================= -->
+   
+    <main class="fitfood" id="app">
+        <h1>{{title}}</h1>
+        <section class="fitfood__info">
+            <div class="fittrainer">
+                <div class="fittrainer__images">
+                    <img v-for="image in images" v-bind:src="image.img" alt="" v-if="image.show" class="fittrainer__img">
+                    
+                </div>
+                <button v-on:click="images.show = !show">Нажми</button>
+            </div>
+        </section>
+        
+        
+    </main>
+    
+<!-- MAIN END ========================================================================= -->
+    
+<!-- SCRIPTS START ==================================================================== --> 
+  
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="js/main.js"></script>
+
+<!-- SCRIPTS END ====================================================================== -->   
+
+<!-- METRIKA START ====================================================================== -->   
+
+<!-- METRIKA END ====================================================================== --> 
+
+
+</body>
+</html>

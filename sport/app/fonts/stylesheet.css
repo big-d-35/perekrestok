@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'RotondaC';
+    src: url('RotondaC.otf');
+    src: url('RotondaC.otf') format('embedded-opentype'),
+        url('RotondaC.otf') format('woff2'),
+        url('RotondaC.otf') format('woff'),
+        url('RotondaC.otf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
