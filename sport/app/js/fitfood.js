@@ -88,6 +88,6 @@ buttonMoreRecepies.addEventListener('click', function (event) {
             
         };
 
-    buttonAllRecepies.classList.add('recepies__button-active');
-    
+    buttonAllRecepies.classList.add('recepies__button-active'); 
+    buttonMoreRecepies.classList.add('recepies__more-inactive');
     });
