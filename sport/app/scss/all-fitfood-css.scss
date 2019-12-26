@@ -454,7 +454,7 @@
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
-        background: linear-gradient(rgba(21, 21, 25, 0.7), rgba(21, 21, 25, 0.7)), url("https://www.perekrestok.ru/src/upload/full/image/60/59/15960.jpeg") no-repeat;
+        background:  url("https://www.perekrestok.ru/src/upload/full/image/60/59/15960.jpeg") no-repeat;
         background-size: cover;
 
         &__info {
@@ -504,7 +504,7 @@
             flex-direction: column;
             justify-content: flex-start;
             align-items: center;
-
+            
             &-mobile {
                 display: none;
             }
@@ -576,13 +576,18 @@
         &__buttons {
             position: absolute;
             bottom: 8px;
-            left: 49%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
         }
 
         &__button {
             cursor: pointer;
             width: 12px;
             height: 12px;
+            margin: 2px;
             border: 1px solid #FFFFFF;
             border-radius: 50%;
             background: transparent;
@@ -631,6 +636,7 @@
             margin-bottom: 10px;
             line-height: 1.6;
             color: #FFFFFF;
+            list-style-type: none;
 
         }
 
@@ -1019,13 +1025,18 @@
         &__buttons {
             position: absolute;
             bottom: 8px;
-            left: 46%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
         }
 
         &__button {
             cursor: pointer;
             width: 20px;
             height: 20px;
+            margin: 2px;
             border: 1px solid #FFFFFF;
             border-radius: 50%;
             background: transparent;
@@ -1349,9 +1360,9 @@
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
-        background: linear-gradient(rgba(21, 21, 25, 0.7), rgba(21, 21, 25, 0.7)), url("https://www.perekrestok.ru/src/upload/full/image/60/59/15960.jpeg") repeat-y;
-        
-
+        background:  url("https://www.perekrestok.ru/src/upload/full/image/60/59/15960.jpeg") repeat-y;
+        background-position: center;
+        background-size: cover;
         &__info {
             width: 100%;
             max-width: 550px;
@@ -1497,11 +1508,16 @@
         &__buttons {
             position: absolute;
             bottom: 8px;
-            left: 46%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
         }
 
         &__button {
             cursor: pointer;
+            margin: 2px;
             width: 20px;
             height: 20px;
             border: 1px solid #FFFFFF;
