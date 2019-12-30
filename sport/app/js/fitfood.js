@@ -4,7 +4,7 @@ const buttonActive = document.getElementsByClassName('fittrainer__button-active'
 const photoSlide = document.getElementsByClassName('fittrainer__img');
 
 buttonsPhoto.addEventListener('click', function (event) {
-        let target = event.target.closest('button');
+        let target = event.target.closest('a');
         let targetButton = event.target.closest('[data-id]');
 
 
