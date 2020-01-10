@@ -460,7 +460,7 @@
 
         &__info {
             width: 100%;
-            max-width: 850px;
+            max-width: 930px;
             display: flex;
             flex-direction: column;
             justify-content: flex-start;
@@ -518,7 +518,7 @@
         }
 
         &__paragraph {
-            width: 235px;
+            width: 280px;
             font-family: RotondaC;
             font-style: normal;
             font-size: 14px;
@@ -553,7 +553,7 @@
         justify-content: center;
 
         &__images {
-            width: 60%;
+            width: 55%;
 
             overflow: hidden;
             z-index: 2;
@@ -896,7 +896,7 @@
     }
 
 }
-//
+
 //@media all and (min-width: 601px) and (max-width: 900px) {
 //    .fitfood {
 //        width: 100%;
